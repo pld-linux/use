@@ -9,8 +9,8 @@ Group:		Development/Tools
 Source0:	http://www.db.informatik.uni-bremen.de/projects/%{name}-%{version}.tar.gz
 # Source0-md5:	92e39f0edc6df05b4be15a267847c26e
 URL:		http://www.db.informatik.uni-bremen.de/projects/USE/
-Requires:	readline
 Requires:	java
+Requires:	readline
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
